@@ -1,6 +1,6 @@
 = Send email alert on successful admin-level user log in.
 
-*Task*: fire an email alert to _admin@yurisk.info_ each time 
+*Task*: fire an email alert to _admin@kacem.com_ each time 
 some user with admin-level permissions logs in to this Fortigate.
 
 
@@ -29,8 +29,8 @@ end
 config system automation-action
     edit "AdminLogin_email"
       set action-type email
-        set email-to "admin@yurisk.com"
-        set email-from "fgt@yurisk.com"
+        set email-to "admin@kacem.com"
+        set email-from "fgt@kacem.com"
         set email-subject "Admin user %%user%% logged in"
         set message "Source IP: %%srcip%%
         Time: %%time%%"
