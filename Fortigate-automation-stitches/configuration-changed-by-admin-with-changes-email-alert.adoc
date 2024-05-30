@@ -24,8 +24,8 @@ end
 config sys automation-action
     edit "ConfigChanged_email"
         set action-type email
-        set email-to "admin@yurisk.info"
-        set email-from "fgt@yurisk.info"
+        set email-to "admin@kacem.com"
+        set email-from "fgt@kacem.com"
         set email-subject "%%log.logdesc%%"
     next
 end
