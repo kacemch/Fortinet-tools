@@ -11,7 +11,7 @@ This alert will run on ANY user with admin-level permissions login, not
 just namely `admin` user.
 
 
-Replace _admin@yurisk.info_ and _fgt@yurisk.info_ values with your own.
+Replace _admin@kacem.com_ and _fgt@kacem.com_ values with your own.
 
 
 
